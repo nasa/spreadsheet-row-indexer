@@ -10,11 +10,11 @@ Link to Open Source Agreement https://github.com/nasa/spreadsheet-row-indexer/bl
 
 # Introduction
 
-This guide is to help with using the Indexer script to filter entire rows based on a column and keyword provided by the user. This script will work with .xslx and .csv file types. The main goal is to quickly and efficiently create a new .csv file of rows containing one similar parameter. For this guide, a sample directory was created with a number of employees with various roles and locations (Fig 1).
+This guide is to help with using the Indexer script to filter entire rows based on a column and keyword provided by the user. This script will work with .xslx and .csv file types. The main goal is to quickly and efficiently create a new .csv file of rows containing one similar parameter. For this guide, a sample directory (directory.csv) was created with a number of employees with various roles and locations (Fig 1).
 
 <img width="815" height="362" alt="Pasted image 20250820123115" src="https://github.com/user-attachments/assets/28c0a4ee-b860-48b4-8821-b57e1015d050" />
 
-**Figure 1. Sample directory of employees containing names, work group, job title, email, phone numbers and desk location.** 
+**Figure 1. Sample directory (directory.csv) of employees containing names, work group, job title, email, phone numbers and desk location.** 
 
 The script uses the Python package pandas as a way of indexing and filtering rows. By providing a column and keyword, pandas will produce all the rows with the given parameters and a new .csv file will be created with the filtered rows. 
 
